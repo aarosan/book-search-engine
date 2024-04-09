@@ -29,9 +29,9 @@ const typeDefs = `
         image: String
         link: String
     }
-
+    
     type Query {
-        user: User
+        me: User
     }
 
     type Mutation {
